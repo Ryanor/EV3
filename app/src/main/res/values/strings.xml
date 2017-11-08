@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EV3Control</string>
+    <string name="select_text">Select IP address</string>
+    <string name="enter_text">or enter IP address</string>
+    <string name="connect">Connect</string>
+    <string name="safe_mode">Safe Mode</string>
+    <string name="distance">Distance</string>
+</resources>

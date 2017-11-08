@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android"
+    android:textAlignment="center">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageButton
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45sp"
+            android:layout_marginTop="110sp"
+            android:rotation="-90"
+            android:background="@null"
+            android:src="@drawable/forward_arrow" />
+
+        <ImageButton
+            android:id="@+id/stop1"
+            android:background="@null"
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10sp"
+            android:layout_marginTop="10sp"
+            android:src="@drawable/stop_button" />
+
+        <ImageButton
+            android:id="@+id/stop2"
+            android:background="@null"
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:src="@drawable/stop_button" />
+
+        <ImageButton
+            android:id="@+id/right"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/left"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="45sp"
+            android:rotation="90"
+            android:src="@drawable/forward_arrow" />
+
+        <ImageButton
+            android:id="@+id/forward"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/forward_arrow"
+            android:layout_alignTop="@+id/stop1"
+            android:layout_alignStart="@+id/backward" />
+
+        <ImageButton
+            android:id="@+id/backward"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="220sp"
+            android:rotation="180"
+            android:src="@drawable/forward_arrow" />
+
+        <ImageButton
+            android:id="@+id/shoot1"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="230sp"
+            android:src="@drawable/firebutton" />
+
+        <ImageButton
+            android:id="@+id/shoot2"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10sp"
+            android:layout_marginTop="230sp"
+            android:src="@drawable/firebutton" />
+
+        <Button
+            android:id="@+id/connect"
+            android:layout_width="110sp"
+            android:layout_height="50sp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30sp"
+            android:layout_marginLeft="10sp"
+            android:text="@string/connect" />
+
+        <Button
+            android:id="@+id/safe_mode"
+            android:layout_width="110sp"
+            android:layout_height="50sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="30sp"
+            android:layout_marginRight="10sp"
+            android:text="@string/safe_mode" />
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="120sp"
+            android:layout_height="40sp"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="35sp"
+            android:text="@string/distance"
+            android:textSize="28sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
